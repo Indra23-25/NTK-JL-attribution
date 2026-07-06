@@ -60,21 +60,20 @@ The paper evaluates NTK-JL across three architecture families with one algorithm
 ## Repository structure
 
 ```
+## Repository structure
+
+```
 .
-├── paper.pdf
-├── README.md
-├── requirements.txt          # so people can reproduce your environment
-├── src/                      # shared building blocks used by all experiments
-│   ├── attribution.py        # the readouts: t_datamodel, t_decomp, t_rps, t_trak
-│   ├── sketching.py          # JL projection, block_grad
-│   └── utils.py              # feature extraction, head fit, margins
-├── experiments/              # one script per experiment (flat, not nested)
-│   ├── lds_sst2_qnli.py
-│   ├── deletion.py
-│   ├── frozen_backbone.py
-│   └── qualitative.py
-├── figures/                  # the plots that appear in the paper
-└── data/ckpt/                # LDS ground-truth cache (committed for reproducibility)
+├── paper.pdf              # the manuscript
+├── README.md             # this file
+├── LICENSE               # MIT
+├── requirements.txt      # dependencies
+├── code/                 # experiment scripts (as run for the paper)
+│   ├── lds_sst2_qnli.py       # Linear Datamodeling Score harness (SST-2, QNLI)
+│   ├── deletion.py            # proponent / opponent deletion experiments
+│   ├── frozen_backbone.py     # RPS-recovery validation (ViT-B/16, ResNet-50)
+│   └── qualitative.py         # Oxford-IIIT Pet, SST-2 qualitative attribution
+└── figures/              # plots that appear in the paper
 ```
 
 *(Adjust the tree above to match what you actually upload.)*
