@@ -60,9 +60,6 @@ The paper evaluates NTK-JL across three architecture families with one algorithm
 ## Repository structure
 
 ```
-## Repository structure
-
-```
 .
 ├── paper.pdf              # the manuscript
 ├── README.md             # this file
