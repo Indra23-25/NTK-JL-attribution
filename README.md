@@ -77,8 +77,8 @@ The paper evaluates NTK-JL across three architecture families with one algorithm
 
 ## Contact
 
-For questions about the work, please reach out to **Indranil Paul**
-(*paulindra009@gmail.com*).
+For questions about the work, please reach out to **Indranil**
+(*paulindr06@gmail.com*).
 
 ---
 
