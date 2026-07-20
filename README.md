@@ -1,7 +1,7 @@
 # One Kernel, Two Readouts: Unifying Representer Point Selection and TRAK for Training-Data Attribution via NTK–JL Sketching
 
 **[📄 Read the paper (PDF)](paper.pdf)** &nbsp;·&nbsp; *Preprint, 2026*
-
+--This repo is under construction
 This repository accompanies our paper on **NTK-JL**, a retrain-free framework for
 training-data attribution. It shows that two independently developed attribution
 methods — **Representer Point Selection (RPS)** and **TRAK** — are two *readouts*
